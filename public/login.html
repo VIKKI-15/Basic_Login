@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Website</title>
+  </head>
+
+  <body class="image">
+    <div class="login-container-1">
+      <h2><b> Login</b></h2>
+      <!--The GET method transfers data in the URL with a query string. length of the URL is limited. GET is  for images, word documents or data that does not require any security. POST is an HTTP method that encodes form data in a specified format and sends it to the server via the HTTP message body-->
+      <form action="/login" method="post">
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          required
+        />
+        <p class="forgot">
+          <b> <a href="forgot.html"> Forgot Password?</a></b>
+        </p>
+        <button class="button" type="submit">Login</button>
+        <p class="sign-1">
+          <b> <a href="register.html"> Or Register Here</a></b>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

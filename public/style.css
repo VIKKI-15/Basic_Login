@@ -1,0 +1,201 @@
+/* Login Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.image {
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.login-container-1 {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+.login-container-1 h2 {
+  margin-bottom: 20px;
+}
+
+.login-container-1 input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.login-container-1 input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.forgot {
+  text-decoration: none;
+
+  cursor: pointer;
+  font-size: small;
+  text-align: right;
+}
+.forgot:hover {
+  color: #e66109;
+}
+
+.sign-1 {
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+}
+.sign-1:hover {
+  color: #e66109;
+}
+
+.button {
+  flex: 1 1 auto;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10000px;
+  cursor: pointer;
+}
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+.button {
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+}
+/* -------------------------------------------------------------------Register Page  ------------------------------------------------*/
+
+.login-container {
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.login-container-2 {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+.login-container-2 h2 {
+  margin-bottom: 20px;
+}
+
+.login-container-2 input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.login-container-2 input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.login-container-2 input[type="Cpassword"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.sbbutton {
+  flex: 1 1 auto;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10000px;
+  cursor: pointer;
+}
+.sbbutton:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+.sbbutton {
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  );
+}
+.term {
+  width: auto;
+  color: green;
+}
+.bttmContainer {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btmtext {
+  font-size: large;
+}
+.last-1 {
+  border-top: 1px solid black;
+}
+
+.sign-2 {
+  text-decoration: none;
+  font-size: medium;
+  text-align: center;
+}
+.sign-2:hover {
+  color: #e66109;
+}
+.alracct {
+  color: blue;
+}
